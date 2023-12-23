@@ -85,9 +85,9 @@ export default function CrudForm({
           className="border-4 p-2 mr-4"
         />
 
-        <input type="submit" value="Enviar" className="rounded border-2 border-slate-600 mr-4 p-2 hover:scale-[1.2] transition-all ease-in-out  hover:bg-slate-600 hover:text-white" />
+        <input type="submit" value="Enviar" className="rounded border-2 border-emerald-700 mr-4 p-2 hover:scale-[1.2] transition-all ease-in-out  hover:bg-emerald-700 hover:text-white" />
 
-        <input type="reset" value="Limpiar" onClick={handleReset}  className="rounded border-2 border-slate-600 p-2 hover:scale-[1.2] transition-all ease-in-out  hover:bg-slate-600 hover:text-white"/>
+        <input type="reset" value="Limpiar" onClick={handleReset}  className="rounded border-2 border-emerald-700 p-2 hover:scale-[1.2] transition-all ease-in-out  hover:bg-emerald-700 hover:text-white"/>
       </form>
     </div>
   );
